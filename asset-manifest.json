@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/password-manager/static/css/main.39567c69.css",
+    "main.js": "/password-manager/static/js/main.acadb055.js",
+    "static/media/show-password.png": "/password-manager/static/media/show-password.415b3e66aa97e7e3530a.png",
+    "static/media/edit.png": "/password-manager/static/media/edit.63cb800f7147cc09308c.png",
+    "static/media/copy.png": "/password-manager/static/media/copy.aab2df846ca072fb67ff.png",
+    "index.html": "/password-manager/index.html",
+    "main.39567c69.css.map": "/password-manager/static/css/main.39567c69.css.map",
+    "main.acadb055.js.map": "/password-manager/static/js/main.acadb055.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39567c69.css",
+    "static/js/main.acadb055.js"
+  ]
+}
