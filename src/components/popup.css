@@ -38,3 +38,11 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .popup-inner .close-btn {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+}

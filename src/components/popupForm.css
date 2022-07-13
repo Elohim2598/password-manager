@@ -52,8 +52,12 @@
 }
 
 /* Responsiveness */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .popup-input {
-    width: 15rem;
+    width: 14rem;
+    font-size: 0.9rem;
+  }
+  .popup-btn {
+    width: 17rem;
   }
 }

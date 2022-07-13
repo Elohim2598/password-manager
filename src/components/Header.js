@@ -33,17 +33,22 @@ function Header({
       <div className="header-container">
         <h1 className="header-title">Password Manager</h1>
         {/* Search-bar  */}
-        <form>
-          <input
-            className="search-box"
-            type="text"
-            placeholder="Search my vault..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </form>
-        {/* Add Card button for displaying the Popup */}
-        <button onClick={() => setShowPopup(true)} className="addbtn"></button>
+        <div className="searchbar-container">
+          <form>
+            <input
+              className="search-box"
+              type="text"
+              placeholder="Search my vault..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </form>
+          {/* Add Card button for displaying the Popup */}
+          <button
+            onClick={() => setShowPopup(true)}
+            className="addbtn"
+          ></button>
+        </div>
         {/* The Popup form*/}
         <PopupForm
           cards={cards}
